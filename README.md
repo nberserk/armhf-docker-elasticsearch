@@ -1,1 +1,5 @@
-# armhf-docker-elasticsearch
+# build
+
+```bash
+docker-compose build
+```

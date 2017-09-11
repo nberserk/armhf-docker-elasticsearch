@@ -1,0 +1,11 @@
+version: '2'
+services:
+  ies:
+    container_name: es
+    build:
+      context: .
+      args:
+        - http_proxy
+        - https_proxy
+    image: armhf-elasticsearch    
+
