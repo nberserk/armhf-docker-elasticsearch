@@ -6,7 +6,7 @@ RUN [ "cross-build-start" ]
 
 #RUN echo "deb http://ports.ubuntu.com/ubuntu-ports/ vivid universe" >> /etc/apt/sources.list
 
-RUN apt-get update && apt-get install -y --no-install-recommends openssh-server openssh-client vim curl ca-certificates zip && apt-get clean
+RUN apt-get update && apt-get install -y --no-install-recommends openssh-server openssh-client vim curl ca-certificates unzip && apt-get clean
 
 # sshd setting
 RUN echo 'root:sheepdog' | chpasswd

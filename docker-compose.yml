@@ -7,5 +7,5 @@ services:
       args:
         - http_proxy
         - https_proxy
-    image: armhf-elasticsearch    
+    image: nberserk/armhf-elasticsearch    
 
