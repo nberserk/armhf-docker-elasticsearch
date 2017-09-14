@@ -1,0 +1,17 @@
+{
+    "mappings": {
+        "bitcoin": { 
+            "_all":       { "enabled": false  }, 
+            "properties": { 
+                "worker":    { "type": "keyword"  }, 
+                "thread":    { "type": "keyword"  },
+                "hash_count":      { "type": "long" },
+                "hash_rate":      { "type": "float" },
+                "time": {
+                    "type": "date",
+                    "format": "yyyy-MM-dd HH:mm:ss||epoch_millis"
+                }                
+            }
+        }    
+    }
+}

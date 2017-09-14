@@ -1,0 +1,9 @@
+{ "index" : { "_index" : "bitcoin", "_type" : "bitcoin", "_id" : "1" } }
+{"worker" : "w1","thread" : "thread0","hash_count" : 100 ,"hash_rate" : 100.13,"time" : "2017-09-04 05:45:39"}
+{ "index" : { "_index" : "bitcoin", "_type" : "bitcoin", "_id" : "2" } }
+{    "worker" : "w1",    "thread" : "thread1",    "hash_count" : 200 ,    "hash_rate" : 200.13,    "time" : "2017-09-04 05:45:39"}
+{ "index" : { "_index" : "bitcoin", "_type" : "bitcoin", "_id" : "3" } }
+{    "worker" : "w1",    "thread" : "thread0",    "hash_count" : 200 ,    "hash_rate" : 200.13,    "time" : "2017-09-04 05:46:39"}
+{ "index" : { "_index" : "bitcoin", "_type" : "bitcoin", "_id" : "4" } }
+{    "worker" : "w1",    "thread" : "thread1",    "hash_count" : 300 ,    "hash_rate" : 300.13,    "time" : "2017-09-04 05:46:39"}
+
